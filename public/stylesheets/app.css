@@ -11,3 +11,6 @@ button:focus{background-color:#ff5252;}
 .welcome center{padding-top:135px }
 center i{color: #f8da46;padding-top: 70px}
 .form{background-color: #fff;height:500px}
+/*main page*/
+#bgone{background-image: url(../assets/hero.png);min-height: 100px;}
+li{float:left;color:#fff;}

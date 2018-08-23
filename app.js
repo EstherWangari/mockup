@@ -8,7 +8,9 @@ app.use(express.static('public'));
 app.get("/",function(req,res){
   res.render("login");
 });
-
+app.post("/login",function(req,res){
+  res.render("main");
+});
 
 
 app.listen(3000,function(){
