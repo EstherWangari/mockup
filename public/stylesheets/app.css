@@ -1,16 +1,42 @@
 .red{1px solid red;}
 .blue{1px dashed blue;}
-.login{background-color:#f0f0f0;height: -webkit-fill-available;}
+body{background-color:#f0f0f0;}
 .welcome{background-image: url(/assets/login.png);background-size: cover;color:#fff;height:500px;padding-top:50px;}
 .welcome h2::after{content:'';display: block;background-color:#fff;width:50px;height:5px;margin-top: 5px;text-align: center;}
 /*hr{width:50px;border: 2px solid #fff;border-radius: 42%;}*/
-form button{background-color:#ff5252;text-transform:lowercase;width:160px;height:40px;border-radius:25%;color:white;border:none;}
+form button{background-color:#ff5252;text-transform:lowercase;width:160px;height:40px;border-radius:20px;color:white;border:none;}
 button:focus{background-color:#ff5252;}
 #section1{padding-top: 170px}
-.section1{height:200px}
+.section1{height:200px;border-radius: 100px;}
 .welcome center{padding-top:135px }
 center i{color: #f8da46;padding-top: 70px}
 .form{background-color: #fff;height:500px}
 /*main page*/
 #bgone{background-image: url(../assets/hero.png);min-height: 100px;}
 li{float:left;color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) {
+    #section1{padding-top: 10px}
+.welcome{background-image: url(/assets/login.png);background-size: cover;color:#fff;height:200px;padding-top:10px;}
+.welcome center{padding-top:2px }
+center i{color: #f8da46;padding-top:10px}
+.form{background-color: #fff;height:335px;margin-top:10px}
+form button{padding-top:5px;margin-bottom: 10px}
+
+
+
+
+
+
+  }
