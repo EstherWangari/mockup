@@ -12,16 +12,16 @@ button:focus{background-color:#ff5252;}
 center i{color: #f8da46;padding-top: 70px}
 .form{background-color: #fff;height:500px}
 /*main page*/
-#bgone{background-image: url(../assets/hero.png);min-height: 100px;}
-li{float:left;color:#fff;padding-top: 20px;font-size: 1.5em;}
+#bgone{background-image: url(../assets/hero.png);min-height:90px;}
+li{float:left;color:#fff;padding-top: 20px;font-size: 1.5em;width:100px}
 .list i{font-size:1.5em;}
-/*.list .select{color:blue;list-style:disc;list-style-position: inside;}*/
+.list .select{list-style:disc;}
 input{width:50%}
 hr{color:#f2f2f2;margin-top:15px}
 .video1 video{max-width:100%}
 .text{padding:0 15px 15px 15px}
 svg{margin-left:240px}
-.video1{box-shadow:2px 2px #f2f2f2;}
+.video1{box-shadow:0 0px 10px rgba(0,0,0,.3);}
 
 
 
@@ -41,6 +41,10 @@ svg{margin-left:240px}
 center i{color: #f8da46;padding-top:10px}
 .form{background-color: #fff;height:335px;margin-top:10px}
 form button{padding-top:5px;margin-bottom: 10px}
+.video1{margin-top:10px;margin-bottom:10px}
+#bgone{min-height:165px}
+ul{text-align: center;}
+li{float:unset;padding-top: unset}
 
 
 
