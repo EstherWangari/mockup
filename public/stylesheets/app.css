@@ -1,5 +1,5 @@
-.red{border:1px solid red;}
-.blue{border:1px dashed blue;}
+.redish{border:1px solid red;}
+.blueish{border:1px dashed blue;}
 /*body{background-color:#f0f0f0;}*/
 .welcome{background-image: url(/assets/login.png);background-size: cover;color:#fff;height:500px;padding-top:50px;}
 .welcome h2::after{content:'';display: block;background-color:#fff;width:50px;height:5px;margin-top: 5px;text-align: center;}
@@ -12,16 +12,18 @@ button:focus{background-color:#ff5252;}
 center i{color: #f8da46;padding-top: 70px}
 .form{background-color: #fff;height:500px}
 /*main page*/
-#bgone{background-image: url(../assets/hero.png);min-height:90px;}
+#bgone{background-image: url(../assets/hero.png);min-height:90px;margin-bottom:30px}
 li{float:left;color:#fff;padding-top: 20px;font-size: 1.5em;width:100px}
 .list i{font-size:1.5em;}
 .list .select{list-style:disc;}
 input{width:50%}
 hr{color:#f2f2f2;margin-top:15px}
-.video1 video{max-width:100%}
+.video1 img{max-width:100%}
 .text{padding:0 15px 15px 15px}
-svg{margin-left:240px}
+svg{text-align: center;}
 .video1{box-shadow:0 0px 10px rgba(0,0,0,.3);}
+video{width:800px;height:370px}
+.input-field{width:40%}
 
 
 
