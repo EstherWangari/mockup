@@ -22,9 +22,9 @@ hr{color:#f2f2f2;margin-top:15px}
 .text{padding:0 15px 15px 15px}
 svg{text-align: center;}
 .video1{box-shadow:0 0px 10px rgba(0,0,0,.3);}
-video{width:800px;height:370px}
+video{width:100%;height:100%}
 .input-field{width:40%}
-
+.video1 i{color:#f8da46;font-size: 40px;float:right;}
 
 
 
@@ -47,6 +47,8 @@ form button{padding-top:5px;margin-bottom: 10px}
 #bgone{min-height:165px}
 ul{text-align: center;}
 li{float:unset;padding-top: unset}
+.input-field{width:100%}
+
 
 
 
